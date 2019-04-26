@@ -1,6 +1,8 @@
 Xamarin Forms macOS `ListView` does not support transparent background (or any alpha less than 1).
 
-Additionally, cells seems to have their backgroudn set to the background of the background of the `ListView` by default, again causing problems when alpha is less than 0.
+Additionally, cells seems to have their background set to the background of the background of the `ListView` by default, again causing problems when alpha is less than 0.
+
+This second part also happens on iOS.
 
 ```csharp
     public class MainPage : ContentPage
@@ -17,4 +19,9 @@ Additionally, cells seems to have their backgroudn set to the background of the 
         }
     }
 ```
-![](screenshots/screenshot.png)
+![](screenshots/macos.png)
+
+Android and iOS versions for reference:
+
+![](screenshots/ios.png)![](screenshots/android.png)
+
