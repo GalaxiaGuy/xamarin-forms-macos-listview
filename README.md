@@ -1,4 +1,4 @@
-Xamarin Forms macOS `ListView` does not support transparent background (or any alpha less than 1.
+Xamarin Forms macOS `ListView` does not support transparent background (or any alpha less than 1).
 
 Additionally, cells seems to have their backgroudn set to the background of the background of the `ListView` by default, again causing problems when alpha is less than 0.
 
